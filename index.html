@@ -8,64 +8,57 @@
 </head>
 <body>
     <div class="container">
-        <h1>Game Promo Code Generator</h1>
+        <h1>Chain Cube Generator from @opgwq @vlad1ky</h1>
         <div class="form-group">
-            <label for="gameSelect">Select Game</label>
+            <label for="gameSelect">Выберите игру/Choose game</label>
             <select id="gameSelect">
-                <option value="1">Riding Extreme 3D</option>
-                <option value="2">Chain Cube 2048</option>
-                <option value="3">My Clone Army</option>
-                <option value="4">Train Miner</option>
-                <option value="5">MergeAway (NEW)</option>
-                <option value="6">Twerk Race (NEW)</option>
-
+                <option value="1">Chain Cube 2048</option>
             </select>
         </div>
         <div id="countdownContainer">
     <p>Event will start in: <span id="countdownTimer"></span> seconds</p>
         </div>
         <div class="form-group">
-            <label id="keyCountLabel" for="keyCountSelect">Number of keys:</label>
+            <label id="keyCountLabel" for="keyCountSelect">Кол-во ключей/Number keys:</label>
             <select id="keyCountSelect">
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
                 <option value="4">4</option>
-                <option value="8">8</option>
                 
             </select>
         </div>
-        <button id="startBtn">Generate Keys</button>
+        <button id="startBtn">Генерировать/Generate</button>
         <div id="progressContainer" class="hidden">
             <div class="progress-bar">
                 <div id="progressBar"></div>
             </div>
             <div id="progressText">0%</div>
-            <div id="progressLog">Starting...</div>
+            <div id="progressLog">Начало/Starting...</div>
         </div>
         <div id="keyContainer" class="hidden">
-            <h3 id="generatedKeysTitle" class="hidden">Generated Keys:</h3>
+            <h3 id="generatedKeysTitle" class="hidden">Ваши ключи/Your keys:</h3>
             <div id="keysList"></div>
-            <button id="copyAllBtn" class="hidden">Copy All Keys</button>
-            <div id="copyStatus" class="hidden">Copied!</div>
-            <button id="generateMoreBtn">Generate More Keys</button>
+            <button id="copyAllBtn" class="hidden">Скопировать ключи/Copy keys</button>
+            <div id="copyStatus" class="hidden">Скопировано/Copied!</div>
+            <button id="generateMoreBtn">Сгенерировать еще/More</button>
         </div>
         <div class="mycodes">
             <p>
-                The Key Generation may take upto 7-10 mins<br>
-                So do Kindly wait - If you feel the Key Generation is not working then <a href="https://telegram.me/Insta_Buy_Follower">Contact Creator</a>
+                Генерация ключей может доходить до 10 минут<br>
+                Долго ждёте? <a href="https://telegram.me/opgwq">напишите разработчику!</a>
             </p>
             <button id="ShowKeysBtn">My Codes</button>
             <div id="generatedCodesContainer" style="display:none;">
-                <h3>Today's Generated Codes:</h3>
+                <h3>Сгенерированное за сегодня/Today keys:</h3>
                 <ul id="generatedCodesList"></ul>
             </div>
 
         </div>
         <div class="footer">
             <p>Disclaimer: This tool is for educational purposes only. Use responsibly.</p>
-            <button id="creatorChannelBtn">Contact Creator 🤖</button> <br><br>
-            <button id="telegramChannelBtn">Check out Our Telegram Channel 🆔</button>
+            <button id="creatorChannelBtn">Контакт разработчика/Developer</button> <br><br>
+            <button id="telegramChannelBtn">Наш ТГ-Чат!/Our Telegram channel 🆔</button>
         </div>
     </div>
     <script src="script.js"></script>
