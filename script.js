@@ -291,11 +291,11 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     document.getElementById('creatorChannelBtn').addEventListener('click', () => {
-        window.open('https://telegram.me/Sam_Dm_bot', '_blank');
+        window.open('https://telegram.me/opgwq', '_blank');
     });
 
     telegramChannelBtn.addEventListener('click', () => {
-        window.open('https://telegram.me/Insta_Buy_Follower', '_blank');
+        window.open('https://telegram.me/hmstr_keyss', '_blank');
     });
 
     document.getElementById('ShowKeysBtn').addEventListener('click', () => {
@@ -320,7 +320,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (codesGeneratedToday.length > 0) {
             generatedCodesList.innerHTML = codesGeneratedToday.join('');
         } else {
-            generatedCodesList.innerHTML = '<li>No codes generated today.</li>';
+            generatedCodesList.innerHTML = '<li>Нет кодов за сегодня...</li>';
         }
 
         generatedCodesContainer.style.display = 'block';
